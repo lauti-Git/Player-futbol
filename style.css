@@ -1,0 +1,190 @@
+
+:root{
+
+    --gris-color: #000a; /* Definición de la variable */
+    --gris-color2: #0007; /* Definición de la variable */
+    --gris-color3: #0009; /* Definición de la variable */
+    --blanco-color: #fff; /* Definición de la variable */
+    --blanco-color2: #fffa; /* Definición de la variable */
+    --azul-color: #00fa; /* Definición de la variable */
+    --rojo-color: #f00a; /* Definición de la variable */
+    --amarillo-color: #ff0a; /* Definición de la variable */
+    --tipografia-:sans-serif; /* Definición de la variable */
+
+}
+
+body{
+
+    background-color: var(--gris-color);/* Color del fondo */
+    font-family: var(--tipografia-);/* tipografia */
+    
+}
+
+span{
+
+    color: var(--amarillo-color); /* color */
+    font-size: 50px; /* tamaño*/
+}
+
+.rojo{
+
+    color: var(--rojo-color); /* color */
+}
+.azul{
+    
+        color: var(--azul-color);  /* color */
+}
+
+
+.titulo{
+
+    text-align: center; /* Centra el titulo */
+    text-shadow: 0 0 10px var(--blanco-color);/* Le da sombra al texto */
+    font-size: 50px; /* tamaño */
+
+}
+p{
+    text-shadow: 0 0 10px var(--gris-color2); /* le da sombra */
+    color: var(--blanco-color); /* color */
+}
+
+
+li{
+
+    list-style: none; /* le quita los puntitos */
+    text-shadow: 0 0 10px var(--gris-color2); /* le da sombra */
+    color: var(--blanco-color); /*color  */
+
+}
+h2{
+
+    text-shadow: 0 0 10px var(--blanco-color2); /* le da sombra */
+    color: var(--blanco-color);   /* color */
+    text-align: center; /* centra el subtitulo */
+
+}
+
+nav li {
+
+    display: inline; /* posiciona los li en una linea */
+    margin: 90px; /* le da un margen a los li */
+
+}
+nav{
+
+    margin-left: 300px; /* le da un margen a la izquierda al nav */
+    
+}
+
+.menu{
+
+    margin-left: 335px ; /* le da un margen a la izquierda al menu */
+
+}
+
+.ico-club{
+
+    display: inline ; /* posiciona los li en una linea */
+
+    margin: 90px ; /* le da un margen a los li */
+
+}
+li img:hover{
+
+    /* cuando pase con el cursos por arriba de los iconos */
+
+    
+    margin-bottom: 5px ; /* le da un margen a la hacia abajo al iconos */
+    border-radius: 50% ; /* le da un borde redondeado a los iconos */
+    box-shadow: 0 0 10px var(--blanco-color2) ; /*sombra a los iconos  */
+    transition: all 0.5s ; /* le da una transicion a los iconos */
+}
+
+a{
+    text-decoration: none ; /* quita el subrayado */
+    color: var(--blanco-color)  ; /* color */
+    border-bottom: 3px solid var(--blanco-color2); /* le da un borde a los enlaces */
+    border-radius: 5px ; /* le da un borde redondeado a los enlaces */
+}
+.espacio{
+    margin: 20px ; /* le da un margen a los li */
+    display: inline ; /* posiciona los li en una linea */
+}
+a:hover{
+
+    /* cuando pase arriba el cursor */
+
+
+    text-shadow: 0 0 10px var(--blanco-color2) ; /* le da sombra */
+    border-bottom: 3px solid var(--gris-color2) ; /* le da un borde a los enlaces */
+    transition: all 0.5s ; /* le da una transicion a los enlaces */
+
+}
+
+.caja{
+
+
+
+    margin: auto ;/* la centra */
+    width: 70vw ; /* ancho */
+    background-color: transparent ; /* color de fondo */
+    box-shadow: 0 0 10px var(--blanco-color2) ; /* sombra */
+    box-sizing: border-box ; /* le da un borde */
+    border-radius: 10px ; /* le da un borde redondeado */
+
+}
+
+
+
+
+.img-trayectoria{
+
+    width: 70vw ; /* ancho */
+    height: 20vh ; /* alto */
+    margin: 0 ; /* le da un margen de cero */
+    border-bottom-left-radius: 5px ; /* le da un borde redondeado a la izquierda*/
+    border-bottom-right-radius: 5px ; /* le da un borde redondeado a la derecha*/
+    opacity: 0.8 ; /* le da un opacidad */
+}
+
+
+
+.box{
+
+    margin: auto ; /* la centra */
+    width: 70vw ; /* ancho */
+    height: 20vh ; /* alto */
+    box-sizing: border-box ; /* le da un borde */
+    background: url(Bandera-españa.jpg) top / cover  fixed ; /* imagen de fondo */
+    }
+
+.opaco{
+
+    background-color: var(--gris-color3) ; /* color de fondo */
+    width: 100% ; /* ancho */
+    height: 85% ; /* alto */
+    color: var(--blanco-color) ; /* color */
+    text-align: center ; /* centra el texto */
+    padding-top: 20px ; /* le da un padding al texto */
+}
+
+.img-player{
+
+    margin: 40px ; /* le da un margen a la imagen */
+    width: 50vw ; /* ancho */
+    margin-left: 135px ; /* le da un margen a la izquierda */
+    border-radius: 10px ; /* le da un borde redondeado */
+    box-shadow: 0 0 10px var(--azul-color) ; /* sombra */
+
+}
+
+.img-player:hover{
+
+    /* cuando pase con el cursos por arriba de la imagen */
+
+    box-shadow: 0 0 10px var(--azul-color), 0 0 20px var(--azul-color), 0 0 30px var(--azul-color) ; /* sombra */
+    transform: scale(1.1) ; /* le da un efecto de zoom */
+    transition: all 0.5s ; /* le da una transicion a la imagen */
+}
+
+
